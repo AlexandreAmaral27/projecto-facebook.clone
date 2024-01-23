@@ -9,11 +9,7 @@
     width: 0px;
     height: 0px;
 }
- html{
-    background-color: rgba(30, 29, 29, 0.699);
-        width: 97.6vw;
-        height: 100vh;
- }
+
     
 
 header{
@@ -22,9 +18,8 @@ header{
     text-align: center;
     background-color: rgb(50, 50, 50);
     margin: -31px;
-    padding-bottom:-50px;
     padding: 30px 65px ;
-    width: 80vw;
+    width: 81.2vw;
   
    
 }
@@ -91,13 +86,12 @@ header div img:hover{
 }
 
 
-
 main{
+    position: absolute;
     background-color:rgb(44, 44, 44);
     padding: 30px;
-    
     margin: auto;
-    width: 900px;
+    width: 89vw;
 
     margin-top: 31px;
     height: 700vh;
@@ -110,3 +104,4 @@ main{
     
 
 } 
+

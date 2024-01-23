@@ -1,20 +1,88 @@
 @charset "UTF8";
 
 
-@media screen and (min-width:768px) and (max-width:992px){ /*Tablet*/
-  
-    
 
-}
-@media screen and (min-width:992px) and (max-width:1200px){/*Desktop*/
-    
-}
-
-@media screen and (min-width:1200px){/*Telas grande*/
+@media screen  and (min-width:530px) and (max-width:700px){
     header{
-        width: 92.3vw;
+        width:86vw;
         
     }
-   
+    html{
+        background-color: gray;
+    }
+    
+    main{
+        width: 93.1vw;
+        
+    }
+    
+}
+
+
+@media screen and (min-width:700px) and (max-width:1200px){ /*Tablet*/
+    
+    header{
+        width:91vw;
+        
+    }
+    html{
+        background-color: gray;
+    }
+    
+    main{
+        width: 94.7vw;
+        
+    }
+     
+    
+
+}
+
+
+@media screen and (min-width:1100px){/*Telas grande*/
+    header{
+        width:92.3vw;
+        
+    }
+    html{
+        background-color: rgb(91, 89, 89);
+    }
+    
+    main{
+       position: relative;
+       left: 0%;
+       width: 869px;
+    }
+    #direita{
+        font-size: .8em;
+        width: 180px;
+        height: 100vh;
+      
+        position: relative;
+        left: -24.1%;
+        top: -3.2%;
+
+    }
+    #esquerda{
+        width: 180px;
+        height: 100vh;
+        background-color: black;
+        position: relative;
+        left: 103%;
+        top: -17.5%;
+
+    }
+    #itens{
+        
+        padding-top: 20px;
+       
+    }
+    #itens>h3{
+        padding: 10px;
+    }
+    #itens>h3:hover{
+        background-color: rgba(66, 66, 66, 0.509);
+        border-radius: 20px;
+    }
      
 }
