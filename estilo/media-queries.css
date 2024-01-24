@@ -119,6 +119,7 @@
         position: relative;
         left: -24.1%;
         top: -3.2%;
+        cursor: pointer;
 
     }
     #esquerda{
@@ -129,11 +130,12 @@
         position: relative;
         left: 103%;
         top: -17.5%;
+        cursor: pointer;
 
     }
     #itens{
-        
         padding-top: 20px;
+        
        
     }
     #itens>h3{
