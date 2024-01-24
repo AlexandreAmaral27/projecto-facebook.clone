@@ -33,6 +33,33 @@
         width: 94.7vw;
         
     }
+    
+
+
+    nav>a{
+    font-size: 1.5em;
+    color: white;
+    padding: 15px;
+    
+    }
+    
+    nav a:hover{
+    background-color: rgb(112, 112, 112);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 9px;
+    transition: 0.7s;
+    transition-duration: 1s;
+    
+    
+   } 
+   #direita{
+    display: none;
+}
+
+#esquerda{
+    display: none;
+}
      
     
 
@@ -53,7 +80,38 @@
        left: 0%;
        width: 869px;
     }
+        
+    nav{
+    background-color: rgba(155, 154, 154, 0.696);
+    border-radius: 20px;
+    padding: 10px;
+    padding-right: 19px;
+    }
+
+    nav>a{
+    font-size: 1.2em;
+    color: white;
+    padding: 40px;
+    transition: 0.1s;
+   
+     
+    }
+    nav>a>span{
+        padding: 0px 20px 0px 20px;
+    }
+    nav>a:hover{
+    background-color: rgba(112, 112, 112, 0.863);
+    color: rgb(0, 0, 0);
+    border-radius: 10%;
+    padding: 12px 25px;
+    transition-duration: 9ms;
+    transition: 0.1s;
+    transition-duration: 1s;
+    
+    
+    } 
     #direita{
+        display: block;
         font-size: .8em;
         width: 180px;
         height: 100vh;
@@ -64,6 +122,7 @@
 
     }
     #esquerda{
+        display: block;
         width: 180px;
         height: 100vh;
         background-color: black;

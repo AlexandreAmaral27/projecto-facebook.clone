@@ -43,23 +43,13 @@ nav{
     padding-right: 19px;
 }
 
-nav>a{
-    font-size: 1.2em;
+nav>a{ 
     color: white;
-    text-decoration: none;
-    padding:10px;
-    font-weight: bold;
-     
+    margin: 20px; 
 }
 nav a:hover{
-    background-color: rgb(112, 112, 112);
     color: rgb(0, 0, 0);
-    border-radius: 15px;
-    padding: 9px;
-    transition: 0.7s;
-    transition-duration: 1s;
-    
-    
+  
 } 
 
 header div img{
@@ -84,7 +74,13 @@ header div img:hover{
     transition: transform,.2s, border,.1s;
 
 }
+#direita{
+    display: none;
+}
 
+#esquerda{
+    display: none;
+}
 
 main{
     position: absolute;
