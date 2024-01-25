@@ -71,14 +71,17 @@
         width:92.3vw;
         
     }
-    html{
+    body,html{
         background-color: rgb(91, 89, 89);
+        width: 100vw;
+       
     }
     
     main{
        position: relative;
        left: 0%;
-       width: 869px;
+       width: 669px;
+       margin-right: 20%;
     }
         
     nav{
@@ -113,22 +116,23 @@
     #direita{
         display: block;
         font-size: .8em;
-        width: 180px;
+        width: 240px;
         height: 100vh;
-      
+        background-color: rgba(128, 128, 128, 0.368);
         position: relative;
-        left: -24.1%;
+        left: -43.1%;
         top: -3.2%;
         cursor: pointer;
+       
 
     }
     #esquerda{
         display: block;
         width: 180px;
         height: 100vh;
-        background-color: black;
+        background-color: rgba(128, 128, 128, 0.368);
         position: relative;
-        left: 103%;
+        left: 107%;
         top: -17.5%;
         cursor: pointer;
 
@@ -140,10 +144,13 @@
     }
     #itens>h3{
         padding: 10px;
+        position: relative;
+        left: 4%;
     }
     #itens>h3:hover{
         background-color: rgba(66, 66, 66, 0.509);
         border-radius: 20px;
+        width: 85%;
     }
      
 }

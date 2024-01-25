@@ -10,7 +10,7 @@ grandes telas: acima 1200px
 */
 @media screen and (min-width:768px) and (max-width:992px){
     body{
-        background-image: linear-gradient(to top,#49a09d,#5f2c82);
+        background-image: linear-gradient(to top,#232525,#8f8f8f);
     }
     #login{
         width: 80vw;
@@ -28,7 +28,8 @@ grandes telas: acima 1200px
     width: 70%;
    }
    .campo>input{
-    background-color: #60bebb;
+    background-color: #5b5b5b;
+    border: 1px solid #444344;
     padding: 4px;
     font-size: 1em;
     border-radius: 8px;
@@ -36,12 +37,26 @@ grandes telas: acima 1200px
     width: calc(99.9% - 44px);
     height: 100%;
     transform: translateY(-11px);
+    top: 76%;
+    right: 17px;
    
+}
+
+  #icon{
+    position: absolute;
+    top: 53%;
+    right: 17px;
+    background: url(../imagens_login/visibility.png) no-repeat ;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-size: cover;
+    transform: translateY(-50%);
 }
 }
 @media screen and (min-width:992px) {
     body{
-        background-image: linear-gradient(to top,#49a09d,#5f2c82);
+        background-image: linear-gradient(to top,#232525,#8f8f8f);
     }
 
     #login{
@@ -67,7 +82,8 @@ grandes telas: acima 1200px
         margin: 20px 0px;
     }
     .campo>input{
-        background-color: #60bebb;
+        background-color: #5b5b5b;
+        border: 1px solid #444344;
         padding: 4px;
         font-size: 1em;
         border-radius: 8px;
@@ -76,4 +92,16 @@ grandes telas: acima 1200px
         height: 100%;
         transform: translateY(-11px);
     }
+    
+  #icon{
+    position: absolute;
+    top: 57%;
+    right: 52%;
+    background: url(../imagens_login/visibility.png) no-repeat ;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-size: cover;
+    transform: translateY(-50%);
+}
 }

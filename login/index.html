@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
+    <link rel="shortcut icon" href="../imagens/logo-facebook.jpg" type="image/x-icon">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
@@ -26,8 +27,11 @@
 
                 <div class="campo">
                     <span class="material-icons">vpn_key</span>
+                   
                     <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required minlength="8" maxlength="20" size="19">
-                    <label for="isenha">Senha</label>   
+                    <label for="isenha">Senha</label>  
+                    <div id="icon" onclick="showhide()">
+                    </div> 
                 </div>
                 <input type="submit" value="Entrar">
 
@@ -41,6 +45,6 @@
 
       </section>
         </main>
-    
+    <script src="script.js"></script>
    </body>
 </html>
