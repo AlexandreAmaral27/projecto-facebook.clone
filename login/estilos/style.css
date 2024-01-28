@@ -143,3 +143,65 @@ form>a.botao:hover{
 form>a.botao>span{
     font-size: 1em;
 }
+#itens{
+    width: 101.9px;
+    background-color: #6969692f;
+    position: relative;
+    top: 5%;
+    left: 1%;
+
+}
+#itens>a>img{
+    display: block;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    top: 0%;
+    left: 25%;
+}
+#itens>a>#facebook:hover{
+   
+    background-color: rgb(76, 0, 255);
+}
+
+#itens>a>#instagram:hover{
+    
+    background-image: linear-gradient(to top,#edae0c,#7f08bb);
+}
+#itens>a>#twitter:hover{
+    
+    background-color:black;
+}
+#itens>a>#youtube:hover{
+    
+    background-color:rgba(255, 0, 0, 0.847);
+}
+#burguer{
+    border: 1px solid grey;
+    position: relative;
+    top: 5%;
+    left: 1%;
+    
+    color: white;
+    cursor: pointer;
+    background-color: #73747437;
+    padding: 15px 38px;
+   
+}
+#burguer:hover{
+    
+    color:  #000000;
+}
+menu{
+    display: none;
+}
+
+menu a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid grey;
+}

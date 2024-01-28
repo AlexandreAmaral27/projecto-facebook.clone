@@ -6,25 +6,29 @@
     <title>login</title>
     <link rel="shortcut icon" href="../imagens/logo-facebook.jpg" type="image/x-icon">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-   <body>
-       <div id="redes">
-        <img src="imagens_login/social/facebook-black.png" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-         
-
-       </div>
+   <body onresize="mudouTamanho()">
 
         <main>
+
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+        
+        <a href="https://www.facebook.com/alexandrekliver.amaral/"><img src="imagens_login/social/facebook.png" alt="" id="facebook"></a>
+            
+        <a href="https://www.instagram.com/amaral_alexandre_27/"><img src="imagens_login/social/instagram.png" alt="" id="instagram"></a>
+
+        <a href="https://twitter.com/Alexandre200420"><img src="imagens_login/social/twitter.png" alt="" id="twitter"></a>
+
+        <a href=""><img src="imagens_login/social/youtube.png" alt="" id="youtube"></a>
+
+        </menu>
+
       <section id="login">
+
         <div id="imagem">
 
         </div>
@@ -59,5 +63,23 @@
       </section>
         </main>
     <script src="script.js"></script>
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        
+        }
+       function clickMenu(){
+        if(itens.style.display == 'block'){
+                itens.style.display = 'none'
+
+              } else {
+                itens.style.display = 'block'
+              }    
+       }
+    </script>
    </body>
 </html>

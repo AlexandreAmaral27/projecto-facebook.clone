@@ -53,6 +53,17 @@ grandes telas: acima 1200px
     background-size: cover;
     transform: translateY(-50%);
 }
+
+i#burguer{
+    display: none;
+
+}
+menu{
+    display: block;
+
+}
+
+
 }
 @media screen and (min-width:992px) {
     body{
@@ -103,5 +114,13 @@ grandes telas: acima 1200px
     cursor: pointer;
     background-size: cover;
     transform: translateY(-50%);
+}
+i#burguer{
+    display: none;
+
+}
+menu{
+    display: block;
+
 }
 }
