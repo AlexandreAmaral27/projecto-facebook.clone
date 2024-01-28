@@ -36,6 +36,7 @@ header>a>img{
     
 }
 
+
 nav{
     background-color: rgba(155, 154, 154, 0.696);
     border-radius: 20px;
@@ -48,8 +49,7 @@ nav>a{
     margin: 20px; 
 }
 nav a:hover{
-    color: rgb(0, 0, 0);
-  
+    color: rgb(0, 0, 0); 
 } 
 
 header div img{
@@ -72,6 +72,12 @@ header div img:hover{
     transform: translate(-1px,-1px);
     box-shadow:5px 5px 20px rgba(0, 0, 0, 0.591);
     transition: transform,.2s, border,.1s;
+
+}
+#conta{
+    width: 40px;
+    height: 35px;
+    border-radius: 100%;
 
 }
 #direita{

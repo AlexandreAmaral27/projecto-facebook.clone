@@ -4,7 +4,7 @@
 
 @media screen  and (min-width:530px) and (max-width:700px){
     header{
-        width:86vw;
+        width:87vw;
         
     }
     html{
@@ -12,14 +12,14 @@
     }
     
     main{
-        width: 93.1vw;
+        width: 93.8vw;
         
     }
     
 }
 
 
-@media screen and (min-width:700px) and (max-width:1200px){ /*Tablet*/
+@media screen and (min-width:700px) and (max-width:815px){ /*Tablet*/
     
     header{
         width:91vw;
@@ -30,7 +30,7 @@
     }
     
     main{
-        width: 94.7vw;
+        width: 96.2vw;
         
     }
     
@@ -65,10 +65,97 @@
 
 }
 
+@media screen and (min-width:815px) and (max-width:900px) {
+    header{
+        width:91.5vw;
+        
+    }
+    html{
+        background-color: gray;
+    }
+    
+    main{
+        width: 96.2vw;
+        
+    }
+    
 
+
+    nav>a{
+    font-size: 1.5em;
+    color: white;
+    padding: 15px;
+    
+    }
+    
+    nav a:hover{
+    background-color: rgb(112, 112, 112);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 9px;
+    transition: 0.7s;
+    transition-duration: 1s;
+    
+    
+   } 
+   #direita{
+    display: none;
+}
+
+#esquerda{
+    display: none;
+}
+     
+    
+
+}
+@media screen and (min-width:900px) and (max-width:1100px){
+    header{
+        width:92.5vw;
+        
+    }
+    html{
+        background-color: gray;
+    }
+    
+    main{
+        width: 96.2vw;
+        
+    }
+    
+
+
+    nav>a{
+    font-size: 1.5em;
+    color: white;
+    padding: 15px;
+    
+    }
+    
+    nav a:hover{
+    background-color: rgb(112, 112, 112);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 9px;
+    transition: 0.7s;
+    transition-duration: 1s;
+    
+    
+   } 
+   #direita{
+    display: none;
+}
+
+#esquerda{
+    display: none;
+}
+     
+  
+}
 @media screen and (min-width:1100px){/*Telas grande*/
     header{
         width:92.3vw;
+
         
     }
     body,html{
@@ -79,7 +166,7 @@
     
     main{
        position: relative;
-       left: 0%;
+       left: -1%;
        width: 669px;
        margin-right: 20%;
     }
@@ -96,20 +183,20 @@
     color: white;
     padding: 40px;
     transition: 0.1s;
-   
-     
+  
     }
     nav>a>span{
         padding: 0px 20px 0px 20px;
+      
     }
     nav>a:hover{
-    background-color: rgba(112, 112, 112, 0.863);
     color: rgb(0, 0, 0);
+    /* background-color: rgba(112, 112, 112, 0.863); */
     border-radius: 10%;
-    padding: 12px 25px;
     transition-duration: 9ms;
     transition: 0.1s;
     transition-duration: 1s;
+    
     
     
     } 
@@ -128,7 +215,7 @@
     }
     #esquerda{
         display: block;
-        width: 180px;
+        width: 228px;
         height: 100vh;
         background-color: rgba(128, 128, 128, 0.368);
         position: relative;
@@ -137,20 +224,33 @@
         cursor: pointer;
 
     }
+    iframe{
+        width: 224px;
+        height: 300px;
+    }
     #itens{
         padding-top: 20px;
         
        
     }
     #itens>h3{
-        padding: 10px;
+        padding: 5px;
         position: relative;
+        top: 0px;
         left: 4%;
+        padding-bottom: 16px;
+    }
+   
+    #itens span{
+        position: relative;
+        top: 4px;
     }
     #itens>h3:hover{
         background-color: rgba(66, 66, 66, 0.509);
         border-radius: 20px;
         width: 85%;
+        transition: .3s;
+        padding-bottom: 16px;
     }
-     
+  
 }
