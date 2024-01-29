@@ -13,6 +13,7 @@ grandes telas: acima 1200px
         background-image: linear-gradient(to top,#232525,#8f8f8f);
     }
     #login{
+        display: block;
         width: 80vw;
         height: 300px;
     }
@@ -54,13 +55,42 @@ grandes telas: acima 1200px
     transform: translateY(-50%);
 }
 
-i#burguer{
-    display: none;
-
+#burguer{
+    border: 1px solid grey;
+    position: relative;
+    top: 5%;
+    left: 90%;
+    width: 79px;
+   
+    color: white;
+    cursor: pointer;
+    background-color: #73747437;
+    padding: 15px 38px;
+   
 }
+
 menu{
     display: block;
 
+}
+
+#itens{
+    width: 77.9px;
+    background-color: #6969692f;
+    position: relative;
+    top: 5%;
+    left: 90%;
+
+}
+#itens>a>img{
+    display: block;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    top: 0%;
+    left: 16%;
 }
 
 
