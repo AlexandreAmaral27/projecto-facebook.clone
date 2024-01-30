@@ -20,7 +20,7 @@ header{
     margin: -31px;
     padding: 30px 65px ;
     width: 81.2vw;
-  
+    
    
 }
 
@@ -87,22 +87,3 @@ header div img:hover{
 #esquerda{
     display: none;
 }
-
-main{
-    position: absolute;
-    background-color:rgb(44, 44, 44);
-    padding: 30px;
-    margin: auto;
-    width: 89vw;
-
-    margin-top: 31px;
-    height: 700vh;
-    
-    
-   color: white;
-    box-shadow: 0px 0px 10px rgba(16, 16, 16, 0.619);
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px ;
-    
-
-} 
