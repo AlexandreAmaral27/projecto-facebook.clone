@@ -164,12 +164,6 @@
        
     }
     
-    main{
-       position: relative;
-       left: -1%;
-       width: 669px;
-       margin-right: 20%;
-    }
         
     nav{
     background-color: rgba(155, 154, 154, 0.696);
@@ -200,6 +194,18 @@
     
     
     } 
+    
+    main{
+        width: 656px;
+        height: 300vh;
+        padding: 30px;
+        background-color: rgba(123, 123, 123, 0.611);
+        position: relative;
+        top: 31px;
+        left: 21%;
+        color: white;
+        border-radius: 0px 0px 20px 20px;
+    }
     #direita{
         display: block;
         font-size: .8em;
@@ -208,19 +214,19 @@
         background-color: rgba(128, 128, 128, 0.368);
         position: relative;
         left: -43.1%;
-        top: -3.2%;
+        top: -19.7%;
         cursor: pointer;
        
 
     }
     #esquerda{
         display: block;
-        width: 228px;
+        width: 264px;
         height: 100vh;
         background-color: rgba(128, 128, 128, 0.368);
         position: relative;
         left: 107%;
-        top: -17.5%;
+        top: -53%;
         cursor: pointer;
 
     }
@@ -228,9 +234,9 @@
         padding: 10px;
         background-color: rgb(163, 162, 162)
     }
-    iframe{
-        width: 224px;
-        height: 523px;
+    #esquerda iframe{
+        width: 260px;
+        height: 542px;
     }
     #itens{
         padding-top: 20px;
@@ -259,27 +265,19 @@
    
     #conteudo{
         position: relative;
-        top: 6%;
+        top: 1%;
     }
-    .centro{
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-        height: 6%;
-        position: relative;
-        top: -32%;
-        left: -5%;
-    }
-    .story{
-        background-color: grey;
-        width: 22%;
-        height: 100%;
-        border-radius: 20px;
-        padding-right: 5px;
-        position: relative;
-        left: 32px;
+   
+ 
 
-    }
+  main>iframe{
+    
+    width: 651px;
+    height: 243px;
+    position: relative;
+    top: -1px;
+    left: -20px;
+    transform: translateY();
 
-  
+  }
 }

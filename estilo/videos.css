@@ -1,21 +1,112 @@
 @charset "UTF-8";
 
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
+    
+
+header{
+    
+    height: 155px;
+    text-align: center;
+    background-color: rgb(50, 50, 50);
+    margin: -31px;
+    padding: 30px 65px ;
+    width: 94.2vw;
+    
+   
+}
+
+header>a>img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.374);
+    box-sizing: border-box;
+
+    position: relative;
+    left: -48%;
+    
+}
+
+
+nav{
+    background-color: rgba(155, 154, 154, 0.696);
+    border-radius: 20px;
+    padding: 10px;
+    padding-right: 19px;
+}
+
+nav>a{ 
+    color: white;
+    margin: 20px; 
+}
+nav a:hover{
+    color: rgb(0, 0, 0); 
+} 
+
+header div img{
+    width: 35px;
+    margin: 10px;
+   
+    
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.374);
+    box-sizing: border-box;
+
+    position: relative;
+    left: 36%;   
+    
+}
+header div img:hover{
+    background-color: rgba(230, 230, 230, 0.26);
+    padding: 3px;
+    border: 2px solid rgba(194, 194, 194, 0.447);
+    transform: translate(-1px,-1px);
+    box-shadow:5px 5px 20px rgba(0, 0, 0, 0.591);
+    transition: transform,.2s, border,.1s;
+
+}
+#conta{
+    width: 40px;
+    height: 35px;
+    border-radius: 100%;
+
+}
+#direita{
+    display: none;
+}
+
+#esquerda{
+    display: none;
+}
+
 body,html{
     height: 10px;
 }
+
 #conteudo{
-    background-color:rgb(44, 44, 44);
-    width: 400px;
+    background-color: rgb(44, 44, 44);
+    width: 504px;
     height: 700px;
     border: 1px solid rgba(169, 169, 169, 0.464);
-    
     position: relative;
-    top: 52%;
-    left: 102px;
+    top: -9.5%;
+    left: -41.6%;
     transform: translate(-23%, 30px);
     color: white;
 }
 #conteudo>h1{
+    font-size: 1.9em;
     padding: 20px;
 }
 #conteudo>span{
@@ -26,8 +117,9 @@ body,html{
    
 }
 #conteudo>h3{
-    font-size: 1em;
-    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    padding: 26px;
     height: 40px;
     position: relative;
     top: 5px;
@@ -36,9 +128,10 @@ body,html{
 #conteudo>h3:hover{
     background-color: rgba(66, 66, 66, 0.509);
     border-radius: 10px;
-    width: 350px;
+    width: 440px;
     position: relative;
     left: 5px;
+
 }
 #pag{
     background-color: rgb(30, 30, 202);
@@ -75,11 +168,12 @@ body,html{
 form{
     background-color:rgba(114, 109, 109, 0.415);
     border-radius: 20px;
-    width: 350px;
+    width: 355px;
     height: 20px;
     position: relative;
     top: -34px;
     left: 17px;
+    padding: 11px;
 
 }
 form>input[type=search]{
@@ -88,14 +182,21 @@ form>input[type=search]{
     left: 6px;
     background-color:rgba(114, 109, 109, 0.415);
     border: none;
+    padding: 3px;
+    border-radius: 5px;
 }
 form>input::placeholder{
     color: white;
 }
 iframe{
-    width: 130%;
+    width: 165%;
     height: 697px;
     position: absolute;
-    top: 4.4%;
-    left: 62%;
+    top: 0.4%;
+    left: 23%;
+}
+main{
+    background-color: rgba(255, 255, 0, 0);
+    height: 81vh;
+    
 }
