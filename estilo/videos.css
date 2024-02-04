@@ -16,7 +16,7 @@
 
 header{
     
-    height: 155px;
+    height: 194px;
     text-align: center;
     background-color: rgb(50, 50, 50);
     margin: -31px;
@@ -42,7 +42,7 @@ header>a>img{
 nav{
     background-color: rgba(155, 154, 154, 0.696);
     border-radius: 20px;
-    padding: 10px;
+    padding: 15px;
     padding-right: 19px;
 }
 
@@ -55,7 +55,7 @@ nav a:hover{
 } 
 
 header div img{
-    width: 35px;
+    width: 50px;
     margin: 10px;
    
     
@@ -77,8 +77,8 @@ header div img:hover{
 
 }
 #conta{
-    width: 40px;
-    height: 35px;
+    width: 55px;
+    height: 50px;
     border-radius: 100%;
 
 }
@@ -97,7 +97,7 @@ body,html{
 #conteudo{
     background-color: rgb(44, 44, 44);
     width: 504px;
-    height: 700px;
+    height: 720px;
     border: 1px solid rgba(169, 169, 169, 0.464);
     position: relative;
     top: -9.5%;
@@ -197,6 +197,6 @@ iframe{
 }
 main{
     background-color: rgba(255, 255, 0, 0);
-    height: 81vh;
+    height: 83vh;
     
 }
