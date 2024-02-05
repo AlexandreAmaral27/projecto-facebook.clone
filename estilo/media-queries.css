@@ -267,6 +267,43 @@
         position: relative;
         top: 1%;
     }
+    #Pesquisar{
+        position: absolute;
+        top: 132px;
+        left: 63px;
+        width: 150px;
+    }
+    #Pesquisar span{
+        position: absolute;
+        top: 9px;
+        left: 7px;
+        color: white;
+    }
+   
+    #Pesquisar>form{
+        background-color:rgba(114, 109, 109, 0.415);
+        border-radius: 20px;
+        width: 203px;
+        height: 20px;
+        position: relative;
+        top: 0px;
+        left: 5px;
+        padding: 11px;
+    
+    }
+    #Pesquisar>form>input[type=search]{
+        position: relative;
+        top: -1px;
+        left: 5px;
+        background-color:rgba(114, 109, 109, 0.415);
+        border: none;
+        padding: 3px;
+        border-radius: 5px;
+    }
+    #Pesquisar>form>input::placeholder{
+        color: white;
+    }
+   
    
  
 
@@ -277,7 +314,11 @@
     position: relative;
     top: -1px;
     left: -20px;
-    transform: translateY();
+    overflow: hidden;
 
   }
+  main>iframe::-webkit-scrollbar{
+    display: none;
+  }
+
 }

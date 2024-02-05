@@ -16,7 +16,7 @@
 
 header{
     
-    height: 194px;
+    height: 213px;
     text-align: center;
     background-color: rgb(50, 50, 50);
     margin: -31px;
@@ -27,7 +27,7 @@ header{
 }
 
 header>a>img{
-    width: 50px;
+    width: 68px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.374);
@@ -36,23 +36,28 @@ header>a>img{
     position: relative;
     left: -48%;
     
+    
 }
 
 
 nav{
     background-color: rgba(155, 154, 154, 0.696);
-    border-radius: 20px;
-    padding: 15px;
+    border-radius: 30px;
+    padding: 20px;
     padding-right: 19px;
+    position: relative;
+    top: 5px;
 }
 
 nav>a{ 
+    font-size: 1.2em;
     color: white;
     margin: 20px; 
 }
 nav a:hover{
     color: rgb(0, 0, 0); 
 } 
+
 
 header div img{
     width: 50px;
@@ -64,7 +69,8 @@ header div img{
     box-sizing: border-box;
 
     position: relative;
-    left: 36%;   
+    left: 36%;  
+    top: 8px; 
     
 }
 header div img:hover{
