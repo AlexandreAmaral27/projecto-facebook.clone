@@ -42,8 +42,8 @@ header>a>img{
 
 nav{
     background-color: rgba(155, 154, 154, 0.696);
-    border-radius: 30px;
-    padding: 20px;
+    border-radius: 40px;
+    padding: 17px;
     padding-right: 19px;
     position: relative;
     top: 5px;
@@ -52,7 +52,7 @@ nav{
 nav>a{ 
     font-size: 1.2em;
     color: white;
-    margin: 20px; 
+    margin: 51px;
 }
 nav a:hover{
     color: rgb(0, 0, 0); 
@@ -128,7 +128,7 @@ body,html{
     padding: 26px;
     height: 40px;
     position: relative;
-    top: 5px;
+    top: -8px;
     left: 5px;
 }
 #conteudo>h3:hover{
@@ -175,7 +175,7 @@ form{
     background-color:rgba(114, 109, 109, 0.415);
     border-radius: 20px;
     width: 355px;
-    height: 20px;
+    height: 30px;
     position: relative;
     top: -34px;
     left: 17px;
