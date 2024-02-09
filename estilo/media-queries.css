@@ -15,6 +15,9 @@
         width: 93.8vw;
         
     }
+    #iframestory{
+        display: none;
+    }
     
 }
 
@@ -60,7 +63,9 @@
 #esquerda{
     display: none;
 }
-     
+#iframestory{
+    display: none;
+}    
     
 
 }
@@ -106,7 +111,9 @@
     display: none;
 }
      
-    
+#iframestory{
+    display: none;
+}
 
 }
 @media screen and (min-width:900px) and (max-width:1100px){
@@ -150,7 +157,9 @@
     display: none;
 }
      
-  
+#iframestory{
+    display: none;
+}
 }
 @media screen and (min-width:1100px){/*Telas grande*/
     header{
@@ -323,5 +332,8 @@
   main>iframe::-webkit-scrollbar{
     display: none;
   }
+  #iframestory{
+    display: block;
+}
 
 }
