@@ -220,30 +220,7 @@
         color: white;
         border-radius: 0px 0px 20px 20px;
     }
-    #direita{
-        display: block;
-        font-size: .8em;
-        width: 240px;
-        height: 100vh;
-        background-color: rgba(128, 128, 128, 0.368);
-        position: relative;
-        left: -43.1%;
-        top: -19.7%;
-        cursor: pointer;
-       
-
-    }
-    #esquerda{
-        display: block;
-        width: 264px;
-        height: 100vh;
-        background-color: rgba(128, 128, 128, 0.368);
-        position: relative;
-        left: 107%;
-        top: -53%;
-        cursor: pointer;
-
-    }
+   
     form{
         padding: 10px;
         background-color: rgb(163, 162, 162)
@@ -251,30 +228,6 @@
     #esquerda iframe{
         width: 260px;
         height: 542px;
-    }
-    #itens{
-        padding-top: 20px;
-        
-       
-    }
-    #itens>h3{
-        padding: 5px;
-        position: relative;
-        top: 0px;
-        left: 4%;
-        padding-bottom: 16px;
-    }
-   
-    #itens span{
-        position: relative;
-        top: 4px;
-    }
-    #itens>h3:hover{
-        background-color: rgba(66, 66, 66, 0.509);
-        border-radius: 20px;
-        width: 85%;
-        transition: .3s;
-        padding-bottom: 16px;
     }
    
     #conteudo{

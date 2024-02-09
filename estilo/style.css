@@ -90,3 +90,16 @@ header div img:hover{
 #iframestory{
     display: none;
 }
+#conteudo>h1{
+    background-image: linear-gradient(to right, rgba(123, 116, 116, 0.634), transparent);
+    border-radius: 20px;
+    padding: 8px;
+    margin: 10px;
+}
+#conteudo>p{
+    line-height: 1.4em;
+    text-indent: 5px;
+    border-radius: 10px;
+    background-color: rgba(176, 169, 169, 0.196);
+    padding: 10px;
+}

@@ -160,12 +160,13 @@
     }
     body,html{
         background-color: rgb(91, 89, 89);
-        width: 100vw;
+        width: 98vw;
        
     }
     
         
     nav{
+    
     background-color: rgba(155, 154, 154, 0.696);
     border-radius: 20px;
     padding: 10px;
