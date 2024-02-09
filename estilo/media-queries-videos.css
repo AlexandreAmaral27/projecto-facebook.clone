@@ -234,6 +234,10 @@
         position: relative;
         top: 1%;
     }
+    #conteudo a{
+        color: white;
+        text-decoration: none;
+    }
     #Pesquisar{
         position: absolute;
         top: 132px;

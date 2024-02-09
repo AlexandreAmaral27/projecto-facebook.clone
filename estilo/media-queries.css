@@ -252,6 +252,10 @@
         
        
     }
+    #itens a{
+        color: white;
+        text-decoration: none;
+    }
     #itens>h3{
         padding: 5px;
         position: relative;
