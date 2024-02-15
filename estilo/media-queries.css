@@ -7,17 +7,61 @@
         width:87vw;
         
     }
-    html{
-        background-color: gray;
+    body,html{
+        background-color: rgb(91, 89, 89);
+        width: 100vw;
+       
     }
     
     main{
         width: 93.8vw;
+        height: 570vh;
         
     }
     #iframestory{
         display: none;
     }
+    
+   #Pesquisar{
+    color: white;
+    position: relative;
+    left: 31px;
+    top: 13px;
+
+}
+#Pesquisar span{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: white;
+    background-color: rgba(102, 99, 99, 0.196);
+    padding: 12px;
+    border-radius: 25px 0 0 25px;
+}
+
+#Pesquisar>form{
+    background-color:rgba(114, 109, 109, 0.415);
+    border-radius: 20px;
+    width: 240px;
+    height: 20px;
+    position: relative;
+    top: 0px;
+    left: -10px;
+    padding: 11px;
+
+}
+#Pesquisar>form>input[type=search]{
+    position: relative;
+    top: -1px;
+    left: 23px;
+    background-color:rgba(114, 109, 109, 0.415);
+    border: none;
+    padding: 3px;
+    border-radius: 5px;
+}
+#Pesquisar>form>input::placeholder{
+    color: white;
+}
     
 }
 
@@ -28,12 +72,15 @@
         width:91vw;
         
     }
-    html{
-        background-color: gray;
+    body,html{
+        background-color: rgb(91, 89, 89);
+        width: 100vw;
+       
     }
     
     main{
         width: 96.2vw;
+        height: 460vh;
         
     }
     
@@ -56,6 +103,47 @@
     
     
    } 
+   #Pesquisar{
+    color: white;
+    position: relative;
+    left: 31px;
+    top: 13px;
+
+}
+#Pesquisar span{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: white;
+    background-color: rgba(102, 99, 99, 0.196);
+    padding: 12px;
+    border-radius: 25px 0 0 25px;
+}
+
+#Pesquisar>form{
+    background-color:rgba(114, 109, 109, 0.415);
+    border-radius: 20px;
+    width: 240px;
+    height: 20px;
+    position: relative;
+    top: 0px;
+    left: -10px;
+    padding: 11px;
+
+}
+#Pesquisar>form>input[type=search]{
+    position: relative;
+    top: -1px;
+    left: 23px;
+    background-color:rgba(114, 109, 109, 0.415);
+    border: none;
+    padding: 3px;
+    border-radius: 5px;
+}
+#Pesquisar>form>input::placeholder{
+    color: white;
+}
+
    #direita{
     display: none;
 }
@@ -75,12 +163,15 @@
         width:91.5vw;
         
     }
-    html{
-        background-color: gray;
+    body,html{
+        background-color: rgb(91, 89, 89);
+        width: 100vw;
+       
     }
     
     main{
         width: 96.2vw;
+        height: 420vh;
         
     }
     
@@ -103,6 +194,47 @@
     
     
    } 
+   
+   #Pesquisar{
+    color: white;
+    position: relative;
+    left: 31px;
+    top: 13px;
+
+}
+#Pesquisar span{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: white;
+    background-color: rgba(102, 99, 99, 0.196);
+    padding: 12px;
+    border-radius: 25px 0 0 25px;
+}
+
+#Pesquisar>form{
+    background-color:rgba(114, 109, 109, 0.415);
+    border-radius: 20px;
+    width: 240px;
+    height: 20px;
+    position: relative;
+    top: 0px;
+    left: -10px;
+    padding: 11px;
+
+}
+#Pesquisar>form>input[type=search]{
+    position: relative;
+    top: -1px;
+    left: 23px;
+    background-color:rgba(114, 109, 109, 0.415);
+    border: none;
+    padding: 3px;
+    border-radius: 5px;
+}
+#Pesquisar>form>input::placeholder{
+    color: white;
+}
    #direita{
     display: none;
 }
@@ -118,19 +250,29 @@
 }
 @media screen and (min-width:900px) and (max-width:1100px){
     header{
-        width:92.5vw;
+        width:91vw;
         
     }
-    html{
-        background-color: gray;
+    body,html{
+        background-color: rgb(91, 89, 89);
+        width: 100vw;
+       
     }
     
-    main{
-        width: 96.2vw;
-        
-    }
+header div img{
+    width: 35px;
+    margin: 10px;
+   
     
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.374);
+    box-sizing: border-box;
 
+    position: relative;
+    left: 33%;   
+    top: 3px;
+    
+}
 
     nav>a{
     font-size: 1.5em;
@@ -148,7 +290,62 @@
     transition-duration: 1s;
     
     
-   } 
+   }
+   main{
+    height: 465vh;
+   }
+ #conteudo{
+    width: 700px;
+    margin: auto;
+ }
+   #Pesquisar{
+    position: absolute;
+    top: 125px;
+    left: 6%;
+    width: 150px;
+    
+}
+#Pesquisar span{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: white;
+    background-color: rgba(102, 99, 99, 0.196);
+    padding: 12px;
+    border-radius: 25px 0 0 25px;
+}
+#Pesquisar>form>input[type=search]{
+    position: relative;
+    top: 16px;
+    left: 55px;
+    background-color:rgba(114, 109, 109, 0.415);
+    border: none;
+    padding: 3px;
+    border-radius: 5px;
+}
+#Pesquisar>form{
+    background-color:rgba(114, 109, 109, 0.415);
+    border-radius: 20px;
+    width: 236px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    left: -10px;
+    padding: 11px;
+
+}
+#Pesquisar>form>input[type=search]{
+    position: relative;
+    top: -1px;
+    left: 25px;
+    background-color:rgba(114, 109, 109, 0.415);
+    border: none;
+    padding: 3px;
+    border-radius: 5px;
+}
+#Pesquisar>form>input::placeholder{
+    color: white;
+}
    #direita{
     display: none;
 }
@@ -173,7 +370,21 @@
        
     }
     
-        
+      
+header div img{
+    width: 35px;
+    margin: 10px;
+   
+    
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.374);
+    box-sizing: border-box;
+
+    position: relative;
+    left: 36%;
+    top: 9px;
+    
+}  
     nav{
     background-color: rgba(155, 154, 154, 0.696);
     border-radius: 40px;
@@ -182,6 +393,7 @@
     }
 
     nav>a{
+        
     font-size: 1.2em;
     color: white;
     padding: 40px;
@@ -206,7 +418,7 @@
     
     main{
         width: 656px;
-        height: 380vh;
+        height: 390vh;
         padding: 30px;
         background-color: rgba(123, 123, 123, 0.611);
         position: relative;
@@ -292,14 +504,14 @@
         left: 0px;
         color: white;
         background-color: rgba(102, 99, 99, 0.196);
-        padding: 9px;
+        padding: 12px;
         border-radius: 25px 0 0 25px;
     }
    
     #Pesquisar>form{
         background-color:rgba(114, 109, 109, 0.415);
         border-radius: 20px;
-        width: 226px;
+        width: 240px;
         height: 20px;
         position: relative;
         top: 0px;
@@ -310,7 +522,7 @@
     #Pesquisar>form>input[type=search]{
         position: relative;
         top: -1px;
-        left: 9px;
+        left: 23px;
         background-color:rgba(114, 109, 109, 0.415);
         border: none;
         padding: 3px;
