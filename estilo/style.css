@@ -48,17 +48,27 @@ nav{
     padding-right: 19px;
 }
 
-nav>a{ 
-    
-    color: white;
-    margin: 20px; 
-}
-nav a:hover{
-    color: rgb(0, 0, 0); 
-} 
 
+nav>a{
+    font-size: 1.5em;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    
+    }
+    
+    nav a:hover{
+    background-color: rgb(112, 112, 112);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: 0.7s;
+    transition-duration: 1s;
+    padding: 10px 20px 10px 20px;
+   
+    
+    
+   }
 header div img{
-    width: 35px;
+    width: 26px;
     margin: 10px;
    
     
@@ -67,8 +77,9 @@ header div img{
     box-sizing: border-box;
 
     position: relative;
-    left: 33%;   
-    top: -42px;
+    left: 28%;
+    top: -24px;
+
     
 }
 header div img:hover{
@@ -81,15 +92,17 @@ header div img:hover{
 
 }
 #conta{
-    width: 40px;
-    height: 35px;
+    width: 30px;
+    height: 24px;
     border-radius: 100%;
+    position: relative;
+    
 
 }
 
 main{
     
-    height: 620vh;
+    height: 460vh;
     padding: 30px;
     background-color: rgba(123, 123, 123, 0.611);
     position: relative;
@@ -139,31 +152,31 @@ main{
     left: 0px;
     color: white;
     background-color: rgba(102, 99, 99, 0.196);
-    padding: 12px;
+    padding: 5px;
     border-radius: 25px 0 0 25px;
     
 }
 
-#Pesquisar>form{
-    background-color:rgba(114, 109, 109, 0.415);
+#Pesquisar>form{    
+    background-color: rgba(114, 109, 109, 0.415);
     border-radius: 20px;
-    width: 200px;
-    height: 20px;
+    width: 137px;
+    height: 12px;
     position: relative;
-    top: 0px;
-    left: -10px;
+    top: 6px;
+    left: 30px;
     padding: 11px;
 
 }
 #Pesquisar>form>input[type=search]{
     position: relative;
-    top: -1px;
-    left: 23px;
-    background-color:rgba(114, 109, 109, 0.415);
+    top: -5px;
+    left: 13px;
+    background-color: rgba(114, 109, 109, 0.415);
     border: none;
     padding: 3px;
     border-radius: 5px;
-    width: 130px;
+    width: 103px;
 }
 #Pesquisar>form>input::placeholder{
     color: white;

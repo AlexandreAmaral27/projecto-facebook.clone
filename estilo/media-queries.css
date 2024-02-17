@@ -21,7 +21,49 @@
     #iframestory{
         display: none;
     }
+    header div img{
+        width: 30px;
+        margin: 10px;
+       
+        
+        border-radius: 50%;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.374);
+        box-sizing: border-box;
     
+        position: relative;
+        left: 28%;
+        top: -26px;
+    
+        
+    }
+    nav>a{
+        font-size: 1.5em;
+        color: white;
+        padding: 10px 20px 10px 20px;
+        
+        }
+        
+        nav a:hover{
+        background-color: rgb(112, 112, 112);
+        color: rgb(0, 0, 0);
+        border-radius: 10px;
+        transition: 0.7s;
+        transition-duration: 1s;
+        padding: 10px 20px 10px 20px;
+       
+        
+        
+       }
+    
+#conta{
+    width: 35px;
+    height: 30px;
+    border-radius: 100%;
+    position: relative;
+    
+
+}
+
    #Pesquisar{
     color: white;
     position: relative;
@@ -35,29 +77,30 @@
     left: 0px;
     color: white;
     background-color: rgba(102, 99, 99, 0.196);
-    padding: 12px;
+    padding: 4px;
     border-radius: 25px 0 0 25px;
 }
 
 #Pesquisar>form{
     background-color:rgba(114, 109, 109, 0.415);
     border-radius: 20px;
-    width: 240px;
-    height: 20px;
+    width: 160px;
+    height: 10px;
     position: relative;
     top: 0px;
-    left: -10px;
+    left: -19px;
     padding: 11px;
 
 }
 #Pesquisar>form>input[type=search]{
     position: relative;
-    top: -1px;
-    left: 23px;
+    top: -6px;
+    left: 12px;
     background-color:rgba(114, 109, 109, 0.415);
     border: none;
     padding: 3px;
     border-radius: 5px;
+    width: 130px;
 }
 #Pesquisar>form>input::placeholder{
     color: white;
@@ -87,27 +130,51 @@
 
 
     nav>a{
-    font-size: 1.5em;
-    color: white;
-    padding: 15px;
+        font-size: 1.5em;
+        color: white;
+        padding: 10px 25px 10px 25px;
+        
+        }
+        
+        nav a:hover{
+        background-color: rgb(112, 112, 112);
+        color: rgb(0, 0, 0);
+        border-radius: 10px;
+        transition: 0.7s;
+        transition-duration: 1s;
+        padding: 10px 25px 10px 25px;
+       
+        
+        
+       }
+   header div img{
+    width: 34px;
+    margin: 10px;
+   
     
-    }
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.374);
+    box-sizing: border-box;
+
+    position: relative;
+    left: 28%;
+    top: -39px;
+
     
-    nav a:hover{
-    background-color: rgb(112, 112, 112);
-    color: rgb(0, 0, 0);
-    border-radius: 10px;
-    padding: 9px;
-    transition: 0.7s;
-    transition-duration: 1s;
+}
+#conta{
+    width: 40px;
+    height: 32px;
+    border-radius: 100%;
+    position: relative;
     
-    
-   } 
+
+}
    #Pesquisar{
     color: white;
     position: relative;
     left: 31px;
-    top: 13px;
+    top: 10px;
 
 }
 #Pesquisar span{
@@ -116,15 +183,15 @@
     left: 0px;
     color: white;
     background-color: rgba(102, 99, 99, 0.196);
-    padding: 12px;
+    padding: 8px;
     border-radius: 25px 0 0 25px;
 }
 
 #Pesquisar>form{
     background-color:rgba(114, 109, 109, 0.415);
     border-radius: 20px;
-    width: 240px;
-    height: 20px;
+    width: 180px;
+    height: 19px;
     position: relative;
     top: 0px;
     left: -10px;
@@ -134,11 +201,12 @@
 #Pesquisar>form>input[type=search]{
     position: relative;
     top: -1px;
-    left: 23px;
+    left: 19px;
     background-color:rgba(114, 109, 109, 0.415);
     border: none;
     padding: 3px;
     border-radius: 5px;
+    width: 140px;
 }
 #Pesquisar>form>input::placeholder{
     color: white;
@@ -178,28 +246,52 @@
 
 
     nav>a{
-    font-size: 1.5em;
-    color: white;
-    padding: 15px;
-    
-    }
-    
-    nav a:hover{
-    background-color: rgb(112, 112, 112);
-    color: rgb(0, 0, 0);
-    border-radius: 10px;
-    padding: 9px;
-    transition: 0.7s;
-    transition-duration: 1s;
-    
-    
-   } 
+        font-size: 1.5em;
+        color: white;
+        padding: 10px 25px 10px 25px;
+        
+        }
+        
+        nav a:hover{
+        background-color: rgb(112, 112, 112);
+        color: rgb(0, 0, 0);
+        border-radius: 10px;
+        transition: 0.7s;
+        transition-duration: 1s;
+        padding: 10px 25px 10px 25px;
+       
+        
+        
+       }
+   header div img{
+    width: 36px;
+    margin: 10px;
    
+    
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.374);
+    box-sizing: border-box;
+
+    position: relative;
+    left: 28%;
+    top: -40px;
+
+    
+}
+
+#conta{
+    width: 44px;
+    height: 37px;
+    border-radius: 100%;
+    position: relative;
+    
+
+}  
    #Pesquisar{
     color: white;
     position: relative;
-    left: 31px;
-    top: 13px;
+    left: 27px;
+    top: 9px;
 
 }
 #Pesquisar span{
@@ -208,7 +300,7 @@
     left: 0px;
     color: white;
     background-color: rgba(102, 99, 99, 0.196);
-    padding: 12px;
+    padding: 9px;
     border-radius: 25px 0 0 25px;
 }
 
@@ -231,6 +323,7 @@
     border: none;
     padding: 3px;
     border-radius: 5px;
+    width: 190px;
 }
 #Pesquisar>form>input::placeholder{
     color: white;
@@ -277,7 +370,7 @@ header div img{
     nav>a{
     font-size: 1.5em;
     color: white;
-    padding: 15px;
+    padding: 10px 25px 10px 25px;
     
     }
     
@@ -285,12 +378,22 @@ header div img{
     background-color: rgb(112, 112, 112);
     color: rgb(0, 0, 0);
     border-radius: 10px;
-    padding: 9px;
     transition: 0.7s;
     transition-duration: 1s;
+    padding: 10px 25px 10px 25px;
+   
     
     
    }
+   
+#conta{
+    width: 40px;
+    height: 34px;
+    border-radius: 100%;
+    position: relative;
+    
+
+}
    main{
     height: 465vh;
    }
@@ -311,22 +414,23 @@ header div img{
     left: 0px;
     color: white;
     background-color: rgba(102, 99, 99, 0.196);
-    padding: 12px;
+    padding: 9px;
     border-radius: 25px 0 0 25px;
 }
 #Pesquisar>form>input[type=search]{
     position: relative;
     top: 16px;
-    left: 55px;
+    left: 18px;
     background-color:rgba(114, 109, 109, 0.415);
     border: none;
     padding: 3px;
     border-radius: 5px;
+    width: 190px;
 }
 #Pesquisar>form{
     background-color:rgba(114, 109, 109, 0.415);
     border-radius: 20px;
-    width: 236px;
+    width: 223px;
     height: 20px;
     position: relative;
     top: 5px;
@@ -342,6 +446,7 @@ header div img{
     border: none;
     padding: 3px;
     border-radius: 5px;
+    width: 180px;
 }
 #Pesquisar>form>input::placeholder{
     color: white;
@@ -382,32 +487,29 @@ header div img{
 
     position: relative;
     left: 36%;
-    top: 9px;
+    top: 2px;
     
 }  
-    nav{
+  nav{
     background-color: rgba(155, 154, 154, 0.696);
     border-radius: 40px;
-    padding: 10px;
+    padding: 9px;
     padding-right: 19px;
     }
-
+  
     nav>a{
-        
+    padding: 16px 30px 11px 30px;
     font-size: 1.2em;
     color: white;
-    padding: 40px;
     transition: 0.1s;
   
     }
-    nav>a>span{
-        padding: 0px 20px 0px 20px;
-      
-    }
+    
     nav>a:hover{
     color: rgb(0, 0, 0);
-    /* background-color: rgba(112, 112, 112, 0.863); */
+    background-color: rgba(112, 112, 112, 0.863); 
     border-radius: 10%;
+    padding: 16px 30px 11px 30px;
     transition-duration: 9ms;
     transition: 0.1s;
     transition-duration: 1s;
@@ -416,6 +518,14 @@ header div img{
     
     } 
     
+#conta{
+    width: 40px;
+    height: 34px;
+    border-radius: 100%;
+    position: relative;
+    
+
+}
     main{
         width: 656px;
         height: 390vh;
@@ -504,7 +614,7 @@ header div img{
         left: 0px;
         color: white;
         background-color: rgba(102, 99, 99, 0.196);
-        padding: 12px;
+        padding: 9px;
         border-radius: 25px 0 0 25px;
     }
    
@@ -522,11 +632,12 @@ header div img{
     #Pesquisar>form>input[type=search]{
         position: relative;
         top: -1px;
-        left: 23px;
+        left: 14px;
         background-color:rgba(114, 109, 109, 0.415);
         border: none;
         padding: 3px;
         border-radius: 5px;
+        width: 191px;
     }
     #Pesquisar>form>input::placeholder{
         color: white;
